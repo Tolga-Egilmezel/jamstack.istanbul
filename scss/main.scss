@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400i,700|Source+Sans+Pro:300i,400&display=swap&subset=latin-ext');
+
+:root {
+  --color-primary-100: #EBF2FB;
+  --color-primary-200: #D8E5F7;
+  --color-primary-300: #BCCEE9;
+  --color-primary-400: #A1B3D4;
+  --color-primary-500: #7D90B8;
+  --color-primary-600: #5B6E9E;
+  --color-primary-700: #3E5084;
+  --color-primary-800: #27366A;
+  --color-primary-900: #172458;
+}
+
+html, body {
+	all: initial;
+	box-sizing: border-box;
+	width: 100vw;
+	height: 100vh;
+	font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  .social {
+    display: flex;
+    flex-direction: row;
+    &__links {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      &:first-child {
+        margin-right: 20px;
+      }
+      svg {
+        margin: 0 8px;
+        width: 28px;
+      }
+      &.-slack {
+        color: #4A154B;
+        svg {
+          fill: #4A154B;
+        }
+      }
+      &.-meetup {
+        color: #ED1C40;
+        svg {
+          fill: #ED1C40;
+        }
+      } 
+    }
+  }
+}
