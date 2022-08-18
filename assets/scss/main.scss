@@ -1,0 +1,28 @@
+@import "./initial";
+
+main {
+	position: relative;
+
+	padding: 0;
+	margin: 0;
+
+	width: 100vw;
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: flex-start;
+
+	background-color: var(--background-color);
+	color: var(--text-color);
+
+	@media (max-width: 1225px) {
+		flex-direction: column-reverse;
+	}
+}
+
+@import "./content";
+@import "./aside";
+
+@import "./home";
