@@ -2,12 +2,7 @@
   "name": "jamstack.istanbul",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:Tolga-Egilmezel/jamstack.istanbul.git",
+  "repository": "https://github.com/Tolga-Egilmezel/jamstack.istanbul.git",
   "author": "Tolga Egilmezel <tolga@egilmezel.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
-    "fibers": "^4.0.2",
-    "sass": "^1.23.6"
-  }
+  "license": "MIT"
 }

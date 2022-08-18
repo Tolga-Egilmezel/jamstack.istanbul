@@ -1,9 +1,0 @@
-[dev]
-  # command = "yarn start"
-  # port = 3000 # Port that the dev server will be listening on
-  # functionsPort = 34567 # port for functions server
-  publish = "_site"
-
-[build]
-  publish = "_site"
-  # command = "DEBUG=* eleventy"
