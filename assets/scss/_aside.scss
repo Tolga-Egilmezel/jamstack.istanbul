@@ -11,6 +11,10 @@
 	color: var(--aside-text-color);
 
 	@media (max-width: 1225px) {
+		position: sticky;
+		left: 0;
+		bottom: 0;
+
 		width: 100%;
 		max-height: 100px;
 
