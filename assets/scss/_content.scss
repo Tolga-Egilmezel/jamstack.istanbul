@@ -1,0 +1,54 @@
+.content {
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+
+	padding: 20px 40px;
+
+	p {
+		max-width: 65ch;
+		font-size: 28px;
+		line-height: 42px;
+
+		a {
+			font-weight: 800;
+			line-height: 24px;
+
+			text-decoration: underline;
+			text-underline-offset: 4px;
+
+			background-color: var(--text-link-background-color);
+			color: var(--text-link-color);
+
+			&::before {
+				content: "";
+				display: inline-block;
+				vertical-align: middle;
+				width: 24px;
+				height: 24px;
+
+				margin: 0 4px 0 0;
+			}
+
+			&[href*="slack"]::before {
+				background-image: url(/assets//svg/slack.svg);
+			}
+
+			&[href*="discord"]::before {
+				background-image: url(/assets//svg/discord.svg);
+			}
+
+			&[href*="twitter"]::before {
+				background-image: url(/assets//svg/twitter.svg);
+			}
+
+			&[href*="kommunity"]::before {
+				background-image: url(/assets//svg/kommunity.svg);
+				background-size: 24px 24px;
+			}
+		}
+	}
+}

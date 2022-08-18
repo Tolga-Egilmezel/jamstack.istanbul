@@ -1,0 +1,40 @@
+---
+title: Jamstack Istanbul
+permalink: /
+---
+
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	{% include "meta/head.njk" %}
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+	<main>
+		{% include "side.njk" %}
+		<section class="content">
+			<header class="header">
+				{% include "../assets/svg/logo-dark.svg" %}
+			</header>
+			{% include "home.njk" %}
+			<p>
+				Jamstack paylaşımlarımız için <a href="{{ site.invite.slack }}" target="_blank" rel="nofollow">Slack</a>
+				ve <a href="{{ site.invite.discord }}" target="_blank" rel="nofollow">Discord</a>,
+				Etkinliklerimiz için <a href="https://kommunity.com/jamstack/about" target="_blank" rel="nofollow">Kommunity</a>
+				veya <a href="https://twitter.com/Jamstack_IST" target="_blank" rel="nofollow">Twitter</a> üzerinden takip
+				edebilirsiniz.
+			</p>
+		</section>
+
+	</main>
+
+</body>
+
+</html>
