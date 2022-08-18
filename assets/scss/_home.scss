@@ -44,13 +44,15 @@
 		margin: 0;
 		padding: 0;
 
-		font-size: 200px;
-		line-height: 240px;
+		font-size: 180px;
+		line-height: 200px;
 		text-transform: uppercase;
 
+		letter-spacing: -4px;
+
 		@media (max-width: 1225px) {
-			font-size: 8ch;
-			line-height: 2ch;
+			font-size: 100px;
+			line-height: 100px;
 		}
 	}
 
@@ -60,8 +62,14 @@
 		margin: 0;
 		padding: 0;
 
-		font-size: 8ch;
-		line-height: 1ch;
+		font-size: 108px;
+		line-height: 108px;
+
+		@media (max-width: 1225px) {
+			font-size: 56px;
+			line-height: 66px;
+		}
+
 		text-transform: uppercase;
 	}
 
