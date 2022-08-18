@@ -30,11 +30,11 @@
 		text-decoration: none;
 	}
 
-	svg,
-	img {
+	svg {
 		margin: 0 0 20px 0;
 		display: block;
 		width: 36px;
+		height: 36px;
 
 		@media (max-width: 1225px) {
 			margin: 0;
